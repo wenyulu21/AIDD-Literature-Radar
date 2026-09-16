@@ -4,20 +4,6 @@
 
 仅提供 Windows 可执行版本。
 
-## 下载与安装
-
-1. 打开 [最新版本下载页面](https://github.com/wenyulu21/AIDD-Literature-Radar/releases/latest)；
-2. 在页面下方找到 **Assets**，下载 `AIDD-Literature-Radar-v1.0-Windows-x64.zip`；
-3. 不要下载 `Source code (zip)` 或 `Source code (tar.gz)`，它们是 GitHub 自动生成的页面文件压缩包，不是软件安装包；
-4. `AIDD-Literature-Radar-v1.0-Windows-x64.sha256` 只是可选的完整性校验文件，不能运行；
-5. 将下载的 ZIP 完整解压到一个可写文件夹，不要直接在压缩包内启动；
-6. 双击解压后的 `AIDD文献雷达-v1.0.exe`；
-7. 首次运行会在程序旁创建本地数据目录；
-8. 点击“获取论文”，选择来源和时间范围后开始获取。
-
-如果 Windows SmartScreen 显示“未知发布者”，请先确认文件来自上述官方发布页；确认无误后点击“更多信息”→“仍要运行”。
-
-
 ![主界面](docs/images/main-interface.png)
 
 ## 为什么做这个工具
@@ -46,6 +32,19 @@ AIDD 文献雷达希望把这些工作集中到一个本地工具中：持续获
 - **本地阅读管理**：支持搜索、组合筛选、收藏、已读/未读、本次新增和 CSV 导出；
 - **中文摘要**：按需翻译摘要并缓存在本地，避免重复翻译；
 - **隐私优先**：不需要注册账号，论文库和阅读状态保存在用户自己的电脑上。
+
+## 下载与安装
+
+1. 打开 [最新版本下载页面](https://github.com/wenyulu21/AIDD-Literature-Radar/releases/latest)；
+2. 在页面下方找到 **Assets**，下载 `AIDD-Literature-Radar-v1.0-Windows-x64.zip`；
+3. 不要下载 `Source code (zip)` 或 `Source code (tar.gz)`，它们是 GitHub 自动生成的页面文件压缩包，不是软件安装包；
+4. `AIDD-Literature-Radar-v1.0-Windows-x64.sha256` 只是可选的完整性校验文件，不能运行；
+5. 将下载的 ZIP 完整解压到一个可写文件夹，不要直接在压缩包内启动；
+6. 双击解压后的 `AIDD文献雷达-v1.0.exe`；
+7. 首次运行会在程序旁创建本地数据目录；
+8. 点击“获取论文”，选择来源和时间范围后开始获取。
+
+如果 Windows SmartScreen 显示“未知发布者”，请先确认文件来自上述官方发布页；确认无误后点击“更多信息”→“仍要运行”。
 
 ## 当前覆盖的来源
 
