@@ -17,7 +17,6 @@
 
 ![主界面](docs/images/main-interface.png)
 
-截图使用演示数据，不包含个人论文库或阅读记录。
 
 ## 主要功能
 
