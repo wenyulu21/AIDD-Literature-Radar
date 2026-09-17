@@ -23,14 +23,10 @@ AIDD 文献雷达希望把这些工作集中到一个本地工具中：持续获
 ## 主要功能
 
 - **多来源统一获取**：在同一个界面选择期刊、会议、arXiv 与 bioRxiv；
-- **题目与摘要共同筛选**：不是只看标题关键词，减少 AIDD 论文漏筛；
 - **全部论文可回看**：保存已选来源的基础文献记录，可切换查看 AIDD 或全部论文；
 - **关注最新发表阶段**：覆盖期刊 ASAP / online-first 元数据，会议按年份获取，预印本按日期获取；
-- **增量获取**：分别记录每个来源的成功位置，下次从尚未获取的范围继续；
-- **版本关联和去重**：优先使用 DOI 去重，并关联预印本、会议版与正式期刊版；
 - **AIDD 宽分类**：覆盖分子生成、分子优化、结构基础设计、性质预测、药物靶点、合成规划、基础模型等方向；
 - **本地阅读管理**：支持搜索、组合筛选、收藏、已读/未读、本次新增和 CSV 导出；
-- **中文摘要**：按需翻译摘要并缓存在本地，避免重复翻译；
 - **隐私优先**：不需要注册账号，论文库和阅读状态保存在用户自己的电脑上。
 
 ## 下载与安装
@@ -50,15 +46,15 @@ AIDD 文献雷达希望把这些工作集中到一个本地工具中：持续获
 
 ### 期刊
 
-默认内置 Advanced Science、Science Advances、Nature Communications、Nature、Science、Cell、Nature Machine Intelligence、Nature Computational Science、Journal of Chemical Information and Modeling、Journal of Medicinal Chemistry 和 Chemical Science。用户也可以在软件中自行添加或删除期刊。
+默认内置 Advanced Science、Science Advances、Nature Communications、Nature、Science、Cell、Nature Machine Intelligence、Nature Computational Science、Journal of Chemical Information and Modeling、Journal of Medicinal Chemistry 和 Chemical Science。用户也可以在软件中通过ISSN码自行添加或删除期刊。
 
 ### 会议
 
-支持 NeurIPS、IJCAI、ICML、ICLR、CVPR 和 ACL。会议按年份获取；当年论文尚未公布时可能暂时得到 0 篇，之后仍可重新获取。
+目前支持 NeurIPS、IJCAI、ICML、ICLR、CVPR 和 ACL。会议按年份获取；当年论文尚未公布时可能暂时得到 0 篇，之后仍可重新获取。
 
 ### 预印本
 
-支持 arXiv 和 bioRxiv，不会自动加入其他预印本平台。
+目前只支持 arXiv 和 bioRxiv。
 
 ## 下载前需要知道
 
@@ -76,7 +72,7 @@ AIDD 文献雷达希望把这些工作集中到一个本地工具中：持续获
 
 ![获取论文](docs/images/fetch-papers.png)
 
-“完整摘要筛选（耗时较长）”会尽量为范围内全部论文补充摘要。普通模式先保存完整的基础记录，只为 AIDD 宽松候选补充摘要，更适合日常使用。
+“完整摘要筛选（耗时较长）”会尽量为范围内全部论文补充摘要。普通模式先保存完整的基础记录，只为 AIDD 宽松候选补充摘要。建议勾选完整摘要筛选。
 
 ### 2. 搜索和筛选
 
