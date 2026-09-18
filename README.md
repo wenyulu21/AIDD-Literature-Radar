@@ -1,6 +1,20 @@
-# AIDD 文献雷达 v1.0
+<div align="center">
+  <img src="docs/images/aidd-literature-radar.png" width="112" alt="AIDD 文献雷达 Logo">
+  <h1>AIDD 文献雷达 v1.0</h1>
+  <p>面向 AI 药物研发研究者的本地文献发现、筛选、去重与阅读管理工具</p>
 
-面向 AI 药物研发研究者的 Windows 文献发现、筛选、去重与阅读管理工具。
+  <a href="https://github.com/wenyulu21/AIDD-Literature-Radar/releases/download/v1.0/AIDD-Literature-Radar-v1.0-Windows-x64.zip">
+    <img src="https://img.shields.io/badge/点击下载-Windows%20v1.0-1677ff?style=for-the-badge&logo=windows&logoColor=white" alt="点击下载 Windows v1.0">
+  </a>
+
+  <p>
+    <img src="https://img.shields.io/badge/release-v1.0-168bd2?style=flat-square" alt="release v1.0">
+    <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-1677ff?style=flat-square&logo=windows&logoColor=white" alt="Windows 10 或 11">
+    <img src="https://img.shields.io/badge/license-Proprietary-c0392b?style=flat-square" alt="Proprietary license">
+  </p>
+</div>
+
+> 无需账号、无需 API Key、无需安装 Python。论文库、中文摘要、收藏和阅读状态全部保存在本机。
 
 仅提供 Windows 可执行版本。
 
